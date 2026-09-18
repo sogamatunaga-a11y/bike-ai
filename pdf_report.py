@@ -28,7 +28,7 @@ def create_pdf(
     kpis
 ):
 
-    filename = "二輪導入診断_提案書.pdf"
+    filename = "/tmp/二輪導入診断_提案書.pdf"
 
     c = canvas.Canvas(
         filename,
