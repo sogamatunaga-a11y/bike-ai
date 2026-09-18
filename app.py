@@ -2478,7 +2478,7 @@ def download_pdf():
 
         payback_years = (
             v["price_yen"] / annual_effect
-            if annual_effect > 0
+            if annual_effect > 0 and v["price_yen"] is not None
             else None
         )
 
