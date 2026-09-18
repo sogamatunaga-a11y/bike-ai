@@ -169,7 +169,8 @@ def create_pdf(
         )
 
         text(
-            f"価格：{vehicle['price_yen']:,}円"
+            f"価格：{vehicle['price_yen']:,}円" if vehicle["price_yen"] is not None else "価格：要確認"
+
         )
 
         text(
