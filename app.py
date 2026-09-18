@@ -1296,7 +1296,7 @@ required
 </select>
 
 
-<label>充電環境</label>
+<label>電動二輪車の充電環境</label>
 
 <select name="charging">
 
